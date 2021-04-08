@@ -15,14 +15,14 @@ keywords = ['newsRipper2','newsripper', "without-api", "google_scraper", 'news_s
 'news-archive', 'news-articles', 'commoncrawl', 'extract-articles', 'extract-information', 'news-scraper', 'spacy']
 
 setuptools.setup(
-    name="newsripperv2",
+    name="newsripper2",
     version="0.2",
     author="Sean Bailey",
     author_email="seanbailey518@gmail.com",
     description="newsripper provides a simple python library which scrapes relevant keyword information from news sites using search engines",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="http://192.168.1.30/Naesen/newsripperv2",
+    url="https://github.com/sean-bailey/newsripper2",
     keywords = keywords,
     install_requires=['beautifulsoup4', 'pandas', 'news-please', 'newspaper3k', 'unidecode','cchardet'],
     packages = setuptools.find_packages(),
