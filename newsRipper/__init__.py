@@ -4,7 +4,7 @@ from newspaper import Article
 from newsplease import NewsPlease
 from requests import get
 from urllib.parse import unquote
-from newsRipper2.helpers import *
+from newsRipper.helpers import *
 from search_engines import multiple_search_engines
 import warnings
 #import time

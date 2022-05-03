@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
 print(find_packages())
 
 setup(
-    name='newsripper2',
+    name='newsripper',
     version='0.1.0',
     packages=find_packages(),
 
@@ -38,3 +38,4 @@ setup(
 install_requires=_parse_requirements('REQUIREMENTS.txt'),
 
 )
+

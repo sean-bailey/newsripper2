@@ -3,6 +3,7 @@ selenium
 pandas
 pattern
 fake_useragent
+mysqlclient
 setuptools
 twine
 unidecode
@@ -18,4 +19,4 @@ webdriver_manager
 newspaper3k
 news-please
 torpy[requirements]
-https://github.com/sean-bailey/Search-Engines-Scraper/archive/master.zip
+search_engines @ https://github.com/sean-bailey/Search-Engines-Scraper/archive/refs/heads/master.zip

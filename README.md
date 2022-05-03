@@ -1,11 +1,6 @@
-# newsripperv2
+# newsripper
 
-newsripper Version 2 is a modification over the original newsRipper. 
-
-V2 leverages the search engines found here: https://github.com/tasos-py/Search-Engines-Scraper
-
-V2 does not intend to supplant the search-engines-scraper, but instead to suppliment it by providing the ability 
-to get deep article summary information as found in the original newsRipper.
+Newsripper leverages the search engines found here: https://github.com/sean-bailey/Search-Engines-Scraper to then perform deep article sumarization and analyiis by leveraging the search engines available there.
 
 **Prerequisites**
 -
@@ -25,7 +20,7 @@ to get deep article summary information as found in the original newsRipper.
 To get the results from your requested search:
 
 ```
-import newsRipper2 as nr
+import newsRipper as nr
 #to get results from all available search engines:
 results=nr.searchnews(query="TSLA site:www.cnn.com & (before:2000-01-01 after:2001-01-01)").results
 
@@ -39,7 +34,7 @@ results=nr.searchnews(query="TSLA site:www.cnn.com & (before:2000-01-01 after:20
 If you have a list of links you'd like to now parse,
 
 ```
-import newsRipper2 as nr
+import newsRipper as nr
 
 for url in nr.searchnews(query="TSLA site:www.cnn.com & (before:2000-01-01 after:2001-01-01)").results.links():
     if nr.parsenews(url).date_publish is not None:
@@ -54,7 +49,7 @@ for url in nr.searchnews(query="TSLA site:www.cnn.com & (before:2000-01-01 after
 If you'd just like to get the raw text from a given url:
 
 ```
-import newsRipper2 as nr:
+import newsRipper as nr:
 
 rawtext=nr.rawnews("https://en.wikipedia.org/wiki/Hannah_Glasse").results
 
