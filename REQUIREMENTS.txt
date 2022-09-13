@@ -19,3 +19,4 @@ webdriver-manager>=3.5.4
 newspaper3k>=0.2.8
 news-please>=1.5.22
 torpy[requirements]>=1.1.6
+search_engines @ https://github.com/sean-bailey/Search-Engines-Scraper/archive/refs/heads/master.zip
