@@ -1,6 +1,6 @@
 # newsripper
 
-Newsripper leverages the search engines found here: https://github.com/sean-bailey/Search-Engines-Scraper to then perform deep article sumarization and analyiis by leveraging the search engines available there.
+Newsripper leverages the search engines [found here](https://github.com/tasos-py/Search-Engines-Scraper) to then perform deep article sumarization and analyiis by leveraging the search engines available there.
 
 **Prerequisites**
 -
