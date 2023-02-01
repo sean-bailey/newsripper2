@@ -140,7 +140,7 @@ class parsenews:
         """
         :returns: The News Language
         """
-        self.image_url = catch('None', lambda: newsplease.language)
+        self.language = catch('None', lambda: newsplease.language)
 
         """
         :returns: The News Publisher
